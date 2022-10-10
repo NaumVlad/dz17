@@ -1,0 +1,43 @@
+.svg,
+.ellipse {
+  animation: svg 5s ease-in-out 1s infinite alternate;
+}
+
+.svg:hover,
+.ellipse:hover {
+  animation-play-state: paused;
+}
+
+@keyframes svg {
+  0% {
+    fill: purple;
+    stroke: orange;
+    margin-left: 0;
+  }
+
+  20% {
+    fill: orange;
+    stroke: purple;
+  }
+
+  40% {
+    fill: purple;
+    stroke: orange;
+  }
+
+  60% {
+    fill: orange;
+    stroke: purple;
+  }
+
+  80% {
+    fill: purple;
+    stroke: orange;
+  }
+
+  100% {
+    fill: orange;
+    stroke: purple;
+    margin-left: 80%;
+  }
+}
